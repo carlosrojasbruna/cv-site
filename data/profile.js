@@ -14,8 +14,8 @@ window.DATA_PROFILE = {
   email: "carojasb@uc.cl",
   orcid: "0000-0003-0845-9986",
   github: "carlosrojasbruna",
-  linkedin: "carlosrojasbruna",
-  kaggle: "carlosrojasbruna",
+  linkedin: "carlos-rojas-b58775323",
+  // kaggle: "carlosrojasbruna",
   nationality: "Chilean",
   initials: "CR",
 
