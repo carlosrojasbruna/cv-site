@@ -76,7 +76,7 @@ window.DATA_PUBLICATIONS = [
     authors: "Rojas Bruna, C. E., Allahbakhshi, M., & Sepúlveda, V.",
     title: "Creer y Demostrar: Fe, Prueba Matemática y Formación Integral en la Escuela",
     venue: "Revista de Educación Religiosa, Universidad Finis Terrae.",
-    doi: 10.38123/rer.v3i5.894,
+    doi: "10.38123/rer.v3i5.894",
     type: "journal"
   },
 
