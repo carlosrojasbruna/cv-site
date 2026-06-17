@@ -6,14 +6,7 @@
 // ─────────────────────────────────────────────────────────────
 
 window.DATA_CONFERENCES = [
- //  {
- //    year: "2026",
- //    title: "Mapping Cognitive Complexity in Mathematics Teacher Education Standards",
- //    event: "PME 49 – 49th Annual Conference of the International Group for the Psychology of Mathematics Education",
- //    location: "University of Helsinki, Finland",
- //    status: "under-review",
- //    note: null
- //  },
+
   {
     year: "2026",
     title: "When Teaching Management Teams Shape AI: Co-Constructing Governance from Practice",
