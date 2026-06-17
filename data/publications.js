@@ -36,15 +36,7 @@ window.DATA_PUBLICATIONS = [
     type: "journal"
   },
 
-  {
-    status: "accepted",
-    year: null,
-    authors: "Rojas Bruna, C. E., Allahbakhshi, M., & Sepúlveda, V.",
-    title: "Creer y Demostrar: Fe, Prueba Matemática y Formación Integral en la Escuela",
-    venue: "Revista de Educación Religiosa, Universidad Finis Terrae.",
-    doi: null,
-    type: "journal"
-  },
+  
 
   {
     status: "accepted",
@@ -77,6 +69,16 @@ window.DATA_PUBLICATIONS = [
   },
 
   // ── PUBLISHED ─────────────────────────────────────────────
+
+  {
+    status: "published",
+    year: 2026,
+    authors: "Rojas Bruna, C. E., Allahbakhshi, M., & Sepúlveda, V.",
+    title: "Creer y Demostrar: Fe, Prueba Matemática y Formación Integral en la Escuela",
+    venue: "Revista de Educación Religiosa, Universidad Finis Terrae.",
+    doi: 10.38123/rer.v3i5.894,
+    type: "journal"
+  },
 
   {
     status: "published",
