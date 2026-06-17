@@ -19,7 +19,7 @@ window.DATA_CONFERENCES = [
     year: "2026",
     title: "Modelización del salto cognitivo entre Álgebra Lineal y Álgebra Abstracta en la formación matemática",
     event: "Congreso Internacional: Matemática Pura y Aplicada en la Era Moderna, CERSEU – Facultad de Ciencias Matemáticas, UNMSM",
-    location: "Lima, Peru",
+    location: "Lima, Perú",
     status: "accepted",
     note: null
   },
