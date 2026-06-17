@@ -6,7 +6,6 @@
 // ─────────────────────────────────────────────────────────────
 
 window.DATA_CONFERENCES = [
-
   {
     year: "2026",
     title: "When Teaching Management Teams Shape AI: Co-Constructing Governance from Practice",
