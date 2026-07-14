@@ -21,7 +21,7 @@ window.DATA_PROFILE = {
 
   // ── THEME ─────────────────────────────────────────────────
   // Options: "dark" | "light"
-  theme: "dark",
+  theme: "light",
 
   bio: [
     "Mathematics education researcher dedicated to enhancing university teaching through evidence-based pedagogical innovation. My work integrates digital technologies, metacognitive strategies, and reflective learning approaches to develop meaningful mathematical understanding at the tertiary level.",
