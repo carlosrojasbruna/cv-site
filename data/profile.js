@@ -14,10 +14,14 @@ window.DATA_PROFILE = {
   email: "carojasb@uc.cl",
   orcid: "0000-0003-0845-9986",
   github: "carlosrojasbruna",
-  linkedin: "carlos-rojas-b58775323",
-  // kaggle: "carlosrojasbruna",
+  linkedin: "carlosrojasbruna",
+  kaggle: "carlosrojasbruna",
   nationality: "Chilean",
   initials: "CR",
+
+  // ── THEME ─────────────────────────────────────────────────
+  // Options: "dark" | "light"
+  theme: "dark",
 
   bio: [
     "Mathematics education researcher dedicated to enhancing university teaching through evidence-based pedagogical innovation. My work integrates digital technologies, metacognitive strategies, and reflective learning approaches to develop meaningful mathematical understanding at the tertiary level.",
