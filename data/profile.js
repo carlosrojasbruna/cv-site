@@ -15,7 +15,7 @@ window.DATA_PROFILE = {
   orcid: "0000-0003-0845-9986",
   github: "carlosrojasbruna",
   linkedin: "carlosrojasbruna",
-  kaggle: "carlosrojasbruna",
+  kaggle: null,
   nationality: "Chilean",
   initials: "CR",
 
