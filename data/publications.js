@@ -49,13 +49,13 @@ window.DATA_PUBLICATIONS = [
   },
 
   {
-    status: "under-review",
-    year: null,
-    authors: "Reyes Santander, P., Puraivan, E., Lasnibat, T., & Rojas Bruna, C. E.",
-    title: "Nociones básicas de la división en estudiantes chilenos de grado 1 y 2 de primaria",
-    venue: "Advances in Research in Mathematics Education (AIEM), Sociedad Española de Investigación en Educación Matemática.",
-    doi: null,
-    type: "journal"
+  status: "under-review",
+  year: null,
+  authors: "Reyes Santander, P., Rojas Bruna, C., Puraivan, E., & Lasnibat, T.",
+  title: "Mental Representations of Division Prior to Formal Instruction: A study with Chilean first and second graders",
+  venue: "Mathematics Education Research Journal, Springer. (MS ID: MERJ-S-26-00414)",
+  doi: null,
+  type: "journal"
   },
 
   {
