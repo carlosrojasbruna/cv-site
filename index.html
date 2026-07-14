@@ -23,6 +23,7 @@
   <script src="data/portfolio.js"></script>
 
   <style>
+    /* ── DARK THEME (default) ── */
     :root {
       --bg:        #0c0f18;
       --bg-card:   #141824;
@@ -39,6 +40,47 @@
       --red:       #d46868;
       --r:         10px;
     }
+
+    /* ── LIGHT THEME ── */
+    html[data-theme="light"] {
+      --bg:        #ffffff;
+      --bg-card:   #f4f4f4;
+      --bg-card2:  #ebebeb;
+      --border:    rgba(0,0,0,0.1);
+      --text:      #111111;
+      --muted:     #666666;
+      --gold:      #1a1a1a;
+      --gold-l:    #333333;
+      --teal:      #1a6b5a;
+      --blue:      #1a4a80;
+      --green:     #1a6b3a;
+      --yellow:    #6b4e00;
+      --red:       #7a1a1a;
+      --r:         10px;
+    }
+
+    /* light theme colour overrides */
+    html[data-theme="light"] .cs-blue   { color: #1a4a80; border-color: rgba(26,74,128,.35);  background: rgba(26,74,128,.07); }
+    html[data-theme="light"] .cs-green  { color: #1a6b3a; border-color: rgba(26,107,58,.35);  background: rgba(26,107,58,.07); }
+    html[data-theme="light"] .cs-yellow { color: #6b4e00; border-color: rgba(107,78,0,.35);   background: rgba(107,78,0,.07); }
+    html[data-theme="light"] .cs-red    { color: #7a1a1a; border-color: rgba(122,26,26,.35);  background: rgba(122,26,26,.07); }
+    html[data-theme="light"] .badge-awarded   { color: #1a6b3a; border-color: rgba(26,107,58,.4); background: rgba(26,107,58,.08); }
+    html[data-theme="light"] .badge-accepted  { color: #1a6b3a; border-color: rgba(26,107,58,.4); background: rgba(26,107,58,.08); }
+    html[data-theme="light"] .badge-pi        { color: #1a1a1a; border-color: rgba(26,26,26,.3);  background: rgba(26,26,26,.05); }
+    html[data-theme="light"] .badge-published { color: #1a1a1a; border-color: rgba(26,26,26,.3);  background: rgba(26,26,26,.05); }
+    html[data-theme="light"] .port-tool       { color: #1a6b5a; border-color: rgba(26,107,90,.3); background: rgba(26,107,90,.06); }
+    html[data-theme="light"] .timeline::before { background: linear-gradient(to bottom, #1a1a1a, transparent); }
+    html[data-theme="light"] .tl-item::before  { background: #1a1a1a; border-color: #ffffff; }
+    html[data-theme="light"] .cr-item          { border-left-color: #1a1a1a; }
+    html[data-theme="light"] .collab-item      { border-left-color: #1a4a80; }
+    html[data-theme="light"] .port-card::after { background: linear-gradient(90deg, #1a6b5a, #1a4a80); }
+    html[data-theme="light"] .divider          { background: #1a1a1a; }
+    html[data-theme="light"] .nav-link:hover,
+    html[data-theme="light"] .nav-link.active  { color: #111111; background: rgba(0,0,0,0.07); }
+    html[data-theme="light"] .nav-dot          { background: #111111; }
+    html[data-theme="light"] .sb-avatar        { background: linear-gradient(135deg, #e0e0e0, #f0f0f0); border-color: #111111; color: #111111; }
+    html[data-theme="light"] .filter-btn:hover,
+    html[data-theme="light"] .filter-btn.on    { border-color: #111111; color: #111111; background: rgba(0,0,0,0.06); }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
     body { font-family: 'Source Sans 3', sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
@@ -294,6 +336,9 @@ function statusBadge(status) {
   if (status === 'under-review') return badge('badge-review', 'Under Review');
   return '';
 }
+
+// ── apply theme from profile.js ─────────────────────────────
+document.documentElement.setAttribute('data-theme', p.theme || 'dark');
 
 // ── page meta ────────────────────────────────────────────────
 document.title = p.name + ' — Academic CV';
