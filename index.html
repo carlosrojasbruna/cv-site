@@ -289,7 +289,7 @@
     .cs-red    { color: #EA4335; border-color: rgba(234,67,53,.35);  background: rgba(234,67,53,.08); }
 
     /* ── PORTFOLIO ── */
-    .portfolio-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; }
     .port-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--r); padding: 1.4rem; text-decoration: none; display: flex; flex-direction: column; gap: 0.75rem; transition: all 0.25s; position: relative; overflow: hidden; }
     .port-card::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--teal), var(--blue)); transform: scaleX(0); transition: transform 0.3s; transform-origin: left; }
     .port-card:hover { border-color: rgba(61,214,192,.25); transform: translateY(-3px); }
