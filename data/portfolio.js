@@ -5,16 +5,16 @@
 
 window.DATA_PORTFOLIO = [
   {
-  label: "AI · Automated Grading",
-  title: "AI-Assisted Grading of Handwritten Mathematics Exams",
-  description: "A 7-phase pipeline where LLMs propose, SymPy verifies, and the human decides edge cases. Piloted on the Linear Algebra MAT1224 final exam (2026-1). The system declares uncertainty rather than producing unreliable grades — 76 automated tests, calibration pilot in progress.",
-  url: "https://carlosrojasbruna.github.io/grading/",
-  stats: [
-    { value: "7",   label: "pipeline phases" },
-    { value: "76",  label: "automated tests" },
-    { value: "3",   label: "review bands" }
-  ],
-  tools: ["LLM", "SymPy", "Python", "GitHub Pages"]
+    label: "AI · Automated Grading",
+    title: "AI-Assisted Grading of Handwritten Mathematics Exams",
+    description: "A 7-phase pipeline where LLMs propose, SymPy verifies, and the human decides edge cases. Piloted on the Linear Algebra MAT1224 final exam (2026-1). The system declares uncertainty rather than producing unreliable grades — 76 automated tests, calibration pilot in progress.",
+    url: "https://carlosrojasbruna.github.io/grading/",
+    stats: [
+      { value: "7",   label: "pipeline phases" },
+      { value: "76",  label: "automated tests" },
+      { value: "3",   label: "review bands" }
+    ],
+    tools: ["LLM", "SymPy", "Python", "GitHub Pages"]
   },
   {
     label: "Curriculum Analysis",
