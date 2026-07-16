@@ -8,6 +8,13 @@
 
 window.DATA_PROJECTS = [
   {
+    year: "2027",
+    title: "Prácticas pedagógicas esenciales para la enseñanza de la matemática: caracterización y fortalecimiento",
+    funder: "Concurso FONDECYT Regular 2027 · ANID Chile · PI: Pamela Reyes",
+    status: "under-review",
+    role: "co-i"
+  },
+  {
     year: "2026",
     title: "Docencia, comunidad y tecnología: Articulando la formación docente y la alfabetización crítica en inteligencia artificial desde la co-creación transdisciplinar",
     funder: "Avanza UC · Pontificia Universidad Católica de Chile",
