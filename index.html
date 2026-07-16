@@ -681,7 +681,7 @@ section('teaching', 'Current Semester', 'Teaching Responsibilities',
 {
   const projHtml = DATA_PROJECTS.map(pr => {
     const roleBadge   = { pi: ['badge-pi','PI'], 'co-i': ['badge-coi','Co-I'], member: ['badge-member','Team'] }[pr.role] || ['badge-member', pr.role];
-    const statusBadge = pr.status === 'awarded' ? ['badge-awarded','Awarded'] : ['badge-notawarded','Not Awarded'];
+    const statusBadge = pr.status === 'awarded' ? ['badge-awarded','Awarded'] : pr.status === 'under-review' ? ['badge-review','Under Review'] : ['badge-notawarded','Not Awarded'];
     return `
       <div class="proj-item">
         <div class="proj-meta">
