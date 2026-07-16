@@ -67,6 +67,16 @@ window.DATA_PUBLICATIONS = [
     doi: null,
     type: "journal"
   },
+  
+  {
+  status: "accepted",
+  year: null,
+  authors: "Kist, A. A., Scouller, C., Reyes-Santander, P., Terkowsky, C., Quince, Z., Maxwell, Q., McAlister, C., May, D., Varney, V., Aubel, I., Pozzo, M. I., Restivo, M. T., Alves, G., & Rojas Bruna, C. E.",
+  title: "Human Centred Professionalism in Engineering: A Position Statement",
+  venue: "ICL 2026 – 29th International Conference on Interactive Collaborative Learning & 55th IGIP International Conference on Engineering Pedagogy. Lecture Notes in Networks and Systems, Springer. Cologne, Germany, Sept 30–Oct 02, 2026.",
+  doi: null,
+  type: "conference-proc"
+  },
 
   // ── PUBLISHED ─────────────────────────────────────────────
 
