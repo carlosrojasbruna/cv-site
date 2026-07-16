@@ -5,6 +5,12 @@
 
 window.DATA_SERVICE = [
   {
+  year: "2026",
+  role: "Committee Member, Special Session HCP",
+  body: "\"Human-Centred Professionalism in Engineering, Science and Education: Practice, Pedagogy and Professional Identity (HCP)\" — ICL 2026",
+  details: "29th International Conference on Interactive Collaborative Learning & 55th IGIP International Conference on Engineering Pedagogy. Sept 30–Oct 02, 2026, Cologne, Germany. Chairs: Ines Aubel (TU Freiberg), Alexander Kist & Catherine Scouller (University of Southern Queensland)."
+  },
+  {
     year: "2026",
     role: "Co-Organizer & Proceedings Editor",
     body: "NeHle University Learning Workshop 2026: \"First Visit, Many Questions: How Engaging Spaces Can Transform Teaching and Learning\"",
