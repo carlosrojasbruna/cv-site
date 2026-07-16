@@ -30,9 +30,9 @@ window.DATA_PROFILE = {
   ],
 
   stats: [
-    { value: "12+", label: "Funded Projects" },
-    { value: "10",  label: "Journal Articles" },
-    { value: "3",   label: "International Fellowships" }
+  { value: "13",  label: "Publications" },
+  { value: "12+", label: "Funded Projects" },
+  { value: "3",   label: "International Fellowships" }
   ],
 
   researchAreas: [
