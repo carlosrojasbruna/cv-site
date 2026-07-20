@@ -8,6 +8,14 @@
 window.DATA_CONFERENCES = [
   {
     year: "2026",
+    title: "Las nociones básicas de matemática y las prácticas pedagógicas esenciales",
+    event: "XXXIX Reunión Latinoamericana de Matemática Educativa (RELME 39), Universidad Autónoma de Santo Domingo",
+    location: "Santo Domingo, Dominican Republic",
+    status: "upcoming",
+    note: "Short communication co-authored with Pamela Reyes Santander (presenting author)."
+  },
+  {
+    year: "2026",
     title: "When Teaching Management Teams Shape AI: Co-Constructing Governance from Practice",
     event: "17th Annual University of Waterloo Teaching and Learning Conference \"The Human Factor: Shaping the Role of Artificial Intelligence in Higher Education\"",
     location: "Waterloo, Canada",
