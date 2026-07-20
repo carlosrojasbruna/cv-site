@@ -2,7 +2,7 @@
 //  data/conferences.js  ·  Conference presentations & talks
 //  Add new entries at the TOP (most recent first)
 //
-//  status: "upcoming" | "presented" | "accepted" | "under-review"
+//  status: "upcoming" | "presented" | "presented" | "under-review"
 // ─────────────────────────────────────────────────────────────
 
 window.DATA_CONFERENCES = [
@@ -19,7 +19,7 @@ window.DATA_CONFERENCES = [
     title: "When Teaching Management Teams Shape AI: Co-Constructing Governance from Practice",
     event: "17th Annual University of Waterloo Teaching and Learning Conference \"The Human Factor: Shaping the Role of Artificial Intelligence in Higher Education\"",
     location: "Waterloo, Canada",
-    status: "accepted",
+    status: "presented",
     note: null
   },
   {
@@ -27,7 +27,7 @@ window.DATA_CONFERENCES = [
     title: "Modelización del salto cognitivo entre Álgebra Lineal y Álgebra Abstracta en la formación matemática",
     event: "Congreso Internacional: Matemática Pura y Aplicada en la Era Moderna, CERSEU – Facultad de Ciencias Matemáticas, UNMSM",
     location: "Lima, Perú",
-    status: "accepted",
+    status: "presented",
     note: null
   },
   {
@@ -43,7 +43,7 @@ window.DATA_CONFERENCES = [
     title: "AI-Enhanced Reflective Writing: Enriching Linear Algebra Teaching and Learning through Automated Analysis with LLMs",
     event: "IFE Conference 2026",
     location: "Monterrey, Mexico",
-    status: "accepted",
+    status: "presented",
     note: "Partially funded by Fondo de Desarrollo, Faculty of Mathematics, PUC Chile"
   },
   {
