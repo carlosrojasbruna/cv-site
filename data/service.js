@@ -5,6 +5,12 @@
 
 window.DATA_SERVICE = [
   {
+    year: "2026",
+    role: "Academic Committee Member",
+    body: "XI Seminario de Innovación e Investigación Docente, Pontificia Universidad Católica de Chile",
+    details: "Representative of the Faculty of Mathematics on the Academic Committee. Organized by the Dirección de Enseñanza e Innovación Docente (Vicerrectoría Académica), PUC Chile."
+  },
+  {
   year: "2026",
   role: "Committee Member, Special Session HCP",
   body: "\"Human-Centred Professionalism in Engineering, Science and Education: Practice, Pedagogy and Professional Identity (HCP)\" — ICL 2026",
