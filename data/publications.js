@@ -21,7 +21,7 @@ window.DATA_PUBLICATIONS = [
     year: null,
     authors: "Rojas Bruna, C. E.",
     title: "Large Language Models for Analyzing Students' Reflective Journals in Linear Algebra: A Reproducible Two-Cohort Study",
-    venue: "International Journal of Information and Education Technology, IACSIT Press. ISSN 2010-3689 (Online).",
+    venue: "International Journal of Information and Education Technology, IACSIT Press. ISSN 2010-3689. (Submission ID: 23301)",
     doi: null,
     type: "journal"
   },
