@@ -10,7 +10,7 @@ window.DATA_CERTIFICATIONS = [
   {
     name: "Google Data Analytics Professional Certificate",
     issuer: "Google · Coursera",
-    year: "2024",
+    year: "2025",
     icon: "📊",
     credlyUrl: "https://www.credly.com/badges/01534a9f-75b1-46c1-98a7-754e969e14a2",
     credlyBadgeId: "01534a9f-75b1-46c1-98a7-754e969e14a2",
