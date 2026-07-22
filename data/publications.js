@@ -17,6 +17,16 @@ window.DATA_PUBLICATIONS = [
   // ── UNDER REVIEW / ACCEPTED ──────────────────────────────
 
   {
+    status: "under-review",
+    year: null,
+    authors: "Rojas Bruna, C. E.",
+    title: "Large Language Models for Analyzing Students' Reflective Journals in Linear Algebra: A Reproducible Two-Cohort Study",
+    venue: "International Journal of Information and Education Technology, IACSIT Press. ISSN 2010-3689 (Online).",
+    doi: null,
+    type: "journal"
+  },
+ 
+  {
     status: "accepted",
     year: null,
     authors: "Rojas Bruna, C. E., Peña-Rincón, P., Reyes-Santander, P., & Wake, G.",
