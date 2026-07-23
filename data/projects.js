@@ -8,6 +8,13 @@
 
 window.DATA_PROJECTS = [
   {
+    year: "2026",
+    title: "Los cajones que piensan: matemáticas para clasificar, comparar y decidir",
+    funder: "Travesías CTCI · PAR Explora Sur Oriente UC (ANID) · Implementación en Escuela Santos Rubio Morales, Pirque · $600.000",
+    status: "awarded",
+    role: "pi"
+  },
+  {
     year: "2027",
     title: "Prácticas pedagógicas esenciales para la enseñanza de la matemática: caracterización y fortalecimiento",
     funder: "Concurso FONDECYT Regular 2027 · ANID Chile · PI: Pamela Reyes",
